@@ -1,0 +1,42 @@
+body {
+    background-color: #E8DDCB;
+    color: #203239;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+nav {
+    background-color: #CDB380;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a, nav a:visited {
+    color: #033649;
+}
+nav a:hover {
+    color: #033649;
+    background-color: #E8DDCB;
+}
+
+
+h1, h2 {
+    color: #031634;
+}
+
+a {
+   color: #036564;
+}
+
+a:visited {
+    color: #031634;
+    
+}
+
+a:hover {
+    color: #033649;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
