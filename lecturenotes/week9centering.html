@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centering</title>
+    <style>
+        p {
+            text-align: center; /* text-allign only works for inline tags */
+            border: 1px dotted black;
+        }
+        .margincentering {
+            border: 1px dashed black;
+            width: 30%;
+            margin: 0 auto;
+        }
+        .flexcentering {
+            border: 1px solid black;
+            display: flex;
+            justify-content: center; /* justify content pushes your content to different locations */
+        }
+    </style>
+</head>
+<body>
+    <p>This is how to center inline text.</p>
+    <div class="margincentering">Traditional way to center block items</div>
+    <div class="flexcentering">This is a flexbox hack for centering.</div>
+</body>
+</html>
