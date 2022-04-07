@@ -1,0 +1,136 @@
+body {
+    background-color: #E8DDCB;
+    color: #203239;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+nav {
+    background-color: #CDB380;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a, nav a:visited {
+    color: #033649;
+}
+nav a:hover {
+    color: #033649;
+    background-color: #E8DDCB;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, h2 {
+    color: #031634;
+}
+
+a {
+   color: #036564;
+}
+
+a:visited {
+    color: #031634;
+    
+}
+
+a:hover {
+    color: #033649;
+}
+
+/* table, th, td {
+    border: 1px solid black;
+} */
+
+.bannerimg {
+    max-width: 100%;
+}
+.badge {
+    width: 75px;
+    max-width: 100%;
+}
+/* skills page */
+.row1{
+    display: flex;
+    margin-top: 5em;
+    /* justify-content: space-around; */
+}
+
+.col1 {
+    display: flex;
+    flex-basis: 80%;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+
+.col2 {
+    display: flex;
+    flex-basis: 20%;
+    /* flex-wrap: wrap; */
+}
+
+.otherskills {
+    background-color: #031634;
+    color: white;
+    border-radius: 25px;
+    padding: 25px;
+    width: 15em;
+}
+
+.otherskills h2 {
+    color: white;
+}
+
+.container {
+    margin: 5em;
+}
+
+.about {
+    display: flex;
+}
+
+.aboutcol {
+    display: flex;
+    flex-basis: 70%;
+}
+
+/* contact page */
+.linkedin {
+    width: 1em;
+}
+.contactrow1 {
+    display: flex;
+    background-color: white;
+    border-radius: 25px;
+    margin: 2em;
+    padding: 25px;
+    /* flex-wrap: wrap; */
+}
+.contactcol2 {
+    padding-left: 2em;
+    padding-top: 4em;
+}
+.contactrow2 {
+    display: flex;
+    background-color: white;
+    border-radius: 25px;
+    margin: 2em;
+    padding: 25px;
+    justify-content: space-around;
+    /* flex-wrap: ; */
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+    a {
+        display: block;
+    }
+    a:not(:first-child) {
+        margin-top: 1em;
+    }
+    span {
+        display: none;
+    }
+}
