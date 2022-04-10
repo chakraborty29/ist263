@@ -1,0 +1,162 @@
+/* Naviagtion styles */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.nav-start {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.nav-end {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.nav-item {
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+}
+
+.nav-item:visited {
+    color: black;
+}
+
+.nav-item:hover {
+    /* background-color: black; */
+    color: #3E92CC
+}
+
+.nav-item.bold {
+    border-radius: 25px;
+    background-color: #3E92CC;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white
+}
+
+.nav-item.bold:hover {
+    background-color: #18435A;
+}
+
+/* Index Main styles */
+.main {
+    margin-top: 2em;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+
+.main-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2em;
+    /* border: 1px solid black; */
+}
+
+.main-item {
+    display: flex;
+    justify-content: center;
+}
+
+.main-item:not(:first-child) {
+    margin-top: 2em;
+}
+
+/* High/Low Risk Styles */
+.chart-container {
+    max-width: 100%;
+    max-height: 100%;
+    width: 25%;
+    height: 25%;
+}
+
+/* Forms */
+.form {
+    background-color: #18435A;
+    color: white;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+input {
+    width: 100%;
+    max-width: 100%;
+    padding: 12px 0px;
+    margin: 8px 0;
+}
+
+input:focus {
+    background-color: #3E92CC;
+    color: white;
+}
+
+input[type=submit] {
+    background-color: #3E92CC;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    border-radius: 25px;
+}
+
+/* Footer styles */
+.footer {
+    width: 100%;
+    background-color: #3E92CC;
+    margin-top: 2em;
+    /* position: fixed; */
+    /* bottom: 0; */
+}
+
+.footer .container {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Bootstrap container class for their github */
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+
+/* Media */
+@media only screen and (max-width: 12000px) {
+    .chart-container {
+        width: 100%;
+        height: 100%;
+    }
+}
