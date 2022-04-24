@@ -1,3 +1,21 @@
+body {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 123.5px;
+}
+/* Accessibility Styles */#skip {
+    position: absolute; /* abslute means take it out of page flow, use left to set position */
+    left: -999px;
+    background-color: #3E92CC;
+    color: white;
+    padding: 5px;
+    font-size: 3em;
+}
+
+#skip:focus {
+    left: 10px;
+}
+
 /* Naviagtion styles */
 .nav {
     display: flex;
@@ -36,17 +54,20 @@
 
 .nav-item.bold {
     border-radius: 25px;
-    background-color: #3E92CC;
+    background-color: #18435A;
     padding-left: 20px;
     padding-right: 20px;
     color: white
 }
 
 .nav-item.bold:hover {
-    background-color: #18435A;
+    background-color: #3E92CC;
 }
 
 /* Index Main styles */
+#content {
+    padding-bottom: 4em;
+}
 .main {
     margin-top: 2em;
     /* display: flex;
@@ -118,10 +139,11 @@ input[type=submit] {
 /* Footer styles */
 .footer {
     width: 100%;
-    background-color: #3E92CC;
-    margin-top: 2em;
-    /* position: fixed; */
-    /* bottom: 0; */
+    background-color: #18435A;
+    position: absolute;
+    bottom: 0;
+    /* height: 4em; */
+    /* min-height: calc(100vh - 211px - 123.5px); */
 }
 
 .footer .container {
