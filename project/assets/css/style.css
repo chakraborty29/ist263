@@ -1,7 +1,7 @@
 body {
     position: relative;
     min-height: 100vh;
-    padding-bottom: 123.5px;
+    /* padding-bottom: 123.5px; */
 }
 /* Accessibility Styles */#skip {
     position: absolute; /* abslute means take it out of page flow, use left to set position */
@@ -70,6 +70,7 @@ body {
 }
 .main {
     margin-top: 2em;
+    margin-bottom: 150px;
     /* display: flex;
     flex-direction: column;
     justify-content: center; */

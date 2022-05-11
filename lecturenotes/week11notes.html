@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* 
+        1. HTML link to anchor to our content area
+        2. put an id attribute into the place you want the anchor to go
+        3. hide and show skip to content
+        4. style to skip to content link
+    */
+    #skip {
+        position: absolute; /* abslute means take it out of page flow, use left to set position */
+        left: -999px;
+        background-color: orange;
+        color: white;
+        padding: 5px;
+    }
+    #skip:focus {
+        left: 10px;
+    }
+</style>
+<body>
+    <nav>
+        <a href="#content" id="skip">Skip to Content</a>
+        <a href="index.html">Home</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+        <h1>Accessibility</h1>
+        <h2>Semeantic Tags</h2>
+        <h3>Aside</h3>
+        <h3>Footer</h3>
+        <h3>Nav</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat possimus vero quo praesentium nesciunt saepe
+            dignissimos hic exercitationem, sequi enim? Laboriosam fugiat sapiente maiores molestiae illum hic
+            architecto dignissimos voluptatum!</p>
+        <h2>Heading Tags in Hierarchy</h2>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, repellat nihil optio aliquid consectetur
+            voluptate ad beatae molestias iste aliquam atque magnam ea ipsa inventore laudantium sint cumque nemo modi?
+        </p>
+    </main>
+    <footer id="content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ab, culpa dolor eos voluptatem soluta id
+            doloribus fuga accusamus laborum aut, alias distinctio! Excepturi sequi sint cupiditate libero. Aperiam,
+            magnam!</p>
+    </footer>
+</body>
+
+</html>
